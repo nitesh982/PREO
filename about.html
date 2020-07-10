@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.copyright {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="nav">
+
+  <a href="index.php" class="w3-button w3-bar-item">Dashboard</a> 
+  <a href="about.html" class="w3-button w3-bar-item">About</a>
+  <div class="search">
+            <form>
+                <input type="text" placeholder="Search.....">
+                <button>Search</button>
+            </form>
+        </div>
+</div>
+
+
+<img class="img-res" src="src/logo.jpg" width="200" height="240">
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This page is the result of combined work of the below Team Memebers.</p>
+  <p>Our aim is to help students in their studies and score good marks in their exams. </p>
+</div>
+
+
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="about/swathi.jpeg" alt="swathi" style="width:100%">
+      <div class="container">
+        <h2><font color="black">P Swathi</h2>
+        <p class="title">Designer</p>
+        <p1><font color="black">Dream and conquer. <br> Let the whole world admire you.</p1>
+        <p>swathiprkl@gmail.com</p>
+        <p><button class="button">Contact : 7978473568</button></p>
+      </div>
+    </div>
+  </div>
+ <div class="column">
+    <div class="card">
+      <img src="about/ayesha.jpeg" alt="Ayesha" style="width:100%">
+      <div class="container">
+    
+        <h2 style="#008CBA";>Ayesha Jahangir</h2>
+        <p class="title">Content Provider</p>
+        <p><font color="black">Strength and Confidence brings success and happiness in your life.</p>
+        <p>ayeshajahangir2015@gmail.com</p>
+        <p><button class="button">Contact : 7338789620</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <center><img src="about/nitesh.jpeg" alt="Nitesh" style="width:100%"></center>
+      <div class="container">
+        <h2>Nitesh Kumar Sah</h2>
+        <p class="title">Coder</p>
+        <p> <font color="black">Never giveup if you are eager to achieve the goal and hence I never giveup on anything.</p>
+        <p>niteshsah982@gmail.com</p>
+        <p><button class="button">Contact : 8967075666</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="about/ravi.jpeg" alt="Ravi" style="width:100%"></center>
+      <div class="container">
+        <h2>Ravi Kumar</h2>
+        <p class="title">Report/Data Analyst</p>
+        <p> <font color="black">Be kind, for everyone you meet is fighting a hard battle.</p>
+        <p>kumarravifbfb@gmail.com</p>
+        <p><button class="button">Contact : 7449286479</button></p>
+      </div>
+    </div>
+  </div>
+  
+ 
+  
+</div>
+
+
+<div class="copyright">
+  <h1>©Copyright</h1>
+  <p>The Contents provided in this website is the combined efforts of various Faculties from different domain and we respect that with great thankfulness.</p>
+  <p></p>
+</div>
+
+</body>
+</html>
