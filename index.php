@@ -1,7 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	
+
+   <script type="text/javascript">
+    function Send() {
+        var name = document.getElementById("search").value;
+        var url = "search.html?name=" + encodeURIComponent(name);
+        window.location.href = url;
+    };
+</script>
+
   <link rel="stylesheet" href="https://s3.amazonaws.com/smatbot/files/smatbot.css.gz"><script type="text/javascript">var otherPulseDiv=document.createElement("DIV");otherPulseDiv.id="pulse_smatbot_unique";var mainDiv=document.createElement("DIV");otherPulseDiv.appendChild(mainDiv);mainDiv.id="closed";var img=document.createElement("Img");img.id="main_icon_smatest";img.src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/chat-loading.gif";var imgLogo=document.createElement("Img");imgLogo.id="logo-smatest";imgLogo.classList.add("logo-smatest");mainDiv.appendChild(img);mainDiv.classList.add("pointer");mainDiv.classList.add("smat-div-before");img.classList.add("smat-main-btn-before");otherPulseDiv.classList.add("pulse-div-before");document.addEventListener("DOMContentLoaded",function(event){document.body.appendChild(otherPulseDiv)});</script><script type="text/javascript">!function(t,e){"use strict";var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0],a=e.createElement("script"),b=document.getElementsByTagName("script")[0];a.setAttribute("type","text/javascript"),a.setAttribute("src",t),a.async=!0,r.insertBefore(a,b)}catch(t){}};t.chatbot_id=4057,r("https://s3.amazonaws.com/smatbot/files/smatbot_plugin.js.gz")}(window,document);</script><script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
 
 <meta charset="UTF-8"
@@ -59,6 +69,7 @@
 </style>
 <body>
 
+
 <div class="nav">
 
 	<img class="img-res" src="src/logo.jpg" width="50" height="36">
@@ -72,8 +83,9 @@
   
   <div class="search">
             <form>
-                <input type="text" placeholder="Search.....">
-                <button>Search</button>
+                <input type="text" id="search"  placeholder="Search.....">
+                <input type="button" value="Search" onclick = "Send()" />
+              <!--  <button type="submit" value="Send" onclick = "Send();" >Search</button>-->
             </form>
         </div>
 </div>
@@ -122,8 +134,9 @@
     </a>
 </div>
   
-<div class="container text-center">    
-  <h3>What We Do</h3><br>
+<div class="container text-center"> 
+<div style="text-align:center;"> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Asia%2FKolkata" width="50%" height="90" frameborder="0" seamless></iframe> </div>   
+  <h3>What We Do </h3><br>
   <div class="row">
    
     <div class="col-sm-4"> 
@@ -206,7 +219,7 @@
   <p> <!--These buttons are created by frinmash.blogspot.com,frinton madtha--> <div id="share-buttons"> <!-- Facebook --> <a href="https://www.facebook.com/sharer.php?u=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php" target="_blank"><img src="https://4.bp.blogspot.com/-raFYZvIFUV0/UwNI2ek6i3I/AAAAAAAAGSA/zs-kwq0q58E/s1600/facebook.png" alt="Facebook" /></a> <!-- Twitter --> <a href="https://twitter.com/share?url=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php&text=Simple Share Buttons" target="_blank"><img src="https://4.bp.blogspot.com/--ISQEurz3aE/UwNI4hDaQMI/AAAAAAAAGS4/ZAgmPiM9Xpk/s1600/twitter.png" alt="Twitter" /></a> <!-- Google+ --> <a href="https://plus.google.com/share?url=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php" target="_blank"><img src="https://2.bp.blogspot.com/-9ijXNtKTaSk/UwNI3ANT4MI/AAAAAAAAGSY/Tu4kE8x9SnI/s1600/google.png" alt="Google" /></a> <!-- Digg --> <a href="https://www.digg.com/submit?url=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php" target="_blank"><img src="https://4.bp.blogspot.com/-AUdsqB7cajQ/UwNI2iqT_AI/AAAAAAAAGR8/0FV_ZcsiylU/s1600/diggit.png" alt="Digg" /></a> <!-- Reddit --> <a href="http://reddit.com/submit?url=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php&title=Simple Share Buttons" target="_blank"><img src="https://4.bp.blogspot.com/-1-mZEa1eiyc/UwNI4JytiFI/AAAAAAAAGSs/AoKmBkkJR-s/s1600/reddit.png" alt="Reddit" /></a> <!-- LinkedIn --> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php" target="_blank"><img src="https://2.bp.blogspot.com/-3_cATk7Wlho/UwNI3eoTTLI/AAAAAAAAGSQ/Y8cpq6S-SeQ/s1600/linkedin.png" alt="LinkedIn" /></a> <!-- Pinterest --> <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img src="https://2.bp.blogspot.com/-3CfsOmDx-Dg/UwNI3kMVjgI/AAAAAAAAGSU/OSixn3lcjX4/s1600/pinterest.png" alt="Pinterest" /></a> <!-- StumbleUpon--> <a href="http://www.stumbleupon.com/submit?url=https://rockersphp.eu-gb.cf.appdomain.cloud/index.php&title=Simple Share Buttons" target="_blank"><img src="https://2.bp.blogspot.com/-si3v8X2IVGI/UwNI4bncQrI/AAAAAAAAGSo/iZepRnIJFZU/s1600/stumbleupon.png" alt="StumbleUpon" /></a> <!-- Email --> <a href="mailto:?Subject=FrinMash&Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://rockersphp.eu-gb.cf.appdomain.cloud/index.php"><img src="https://4.bp.blogspot.com/-njgKtNLrPqI/UwNI2o-9WfI/AAAAAAAAGR4/f8da1gBgyLs/s1600/email.png" alt="Email" /></a> </div>
 
  </p>
- <a href="contact.php" style="background-color: #3BE79C; color: black;">WRITE TO US FOR ANY QUERY</a>
+ <a href="contact.html" style="background-color: #3BE79C; color: black;">WRITE TO US FOR ANY QUERY</a>
 </footer>
 
 

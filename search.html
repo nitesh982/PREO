@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search result</title>
+</head>
+<style type="text/css">
+  
+  
+  body,html{
+    background-image: url(src/);
+  }
+</style>
+<body>
+  <h1> Search result</h1>
+<section><span id="lblData"></span></section>
+  <span id="lblData"></span>
+<script type="text/javascript">
+    var queryString = new Array();
+
+
+queryString
+
+    window.onload = function () {
+        if (queryString.length == 0) {
+            if (window.location.search.split('?').length > 1) {
+                var params = window.location.search.split('?')[1].split('&');
+                for (var i = 0; i < params.length; i++) {
+                    var key = params[i].split('=')[0];
+                    var value = decodeURIComponent(params[i].split('=')[1]);
+                    queryString[key] = value;
+                }
+            }
+        }
+        if (queryString["name"] != null) {
+          data= queryString["name"];
+            document.getElementById("lblData").innerHTML = data;
+        }
+    };
+</script>
+
+
+</body>
+</html>

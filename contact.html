@@ -1,8 +1,42 @@
 
-<?php include('control.php'); ?>
  <!DOCTYPE html>
 <html>
 <head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+
+var eventposted=0;
+
+$(document).ready(function(){
+ $('input.button').click(function() {
+   window.setInterval(foo, 100);
+ });
+});
+
+function foo(){
+ if(($(".form-submission-text").is(':visible')) && (eventposted==0)){
+   window.location = "index.php";
+   eventposted=1;
+ }
+}
+
+</script>
+
+<style type="text/css">
+  
+  a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -75,7 +109,7 @@ input[type=submit]:hover {
   </div>
   <div class="row">
     <div class="column">
-      <form action="control.php">
+      <form >
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
@@ -91,7 +125,8 @@ input[type=submit]:hover {
         </select>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input  name="submit" type='Submit' value='submit'>
+        <a href="index.php" type="input">Submit</a>
+       <!--<input  type="submit" value="Submit request" /> -->  
         
       </form>
     </div>
