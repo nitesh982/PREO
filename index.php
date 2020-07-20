@@ -66,6 +66,7 @@
       display: none; 
     }
   }
+
 </style>
 <body>
 
@@ -166,7 +167,8 @@
     </div>
   </div>
 </div><br>
-<iframe src="https://public.domo.com/cards/bWxVg" width="50%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+<hr>
+<iframe src="https://public.domo.com/cards/bWxVg" width="60%" height="650" marginheight="0" marginwidth="0" frameborder="0"></iframe>
  <div class="col-sm-4">
       
       <div id="piechart"></div>
@@ -198,7 +200,7 @@
 
 
 <div class="well"  width: 50%>
-  <img src="src/1.jpg" width="50%"><img src="src/2.jpg" width="50%">
+  <img src="src/1.jpg" width="600" height=""><img src="src/2.jpg" width="50%">
        <p style="color: black"> </p>
       </div>
       <div class="well"  width: 50%>
@@ -208,7 +210,7 @@
       </div>
 
       
-<img src="src/3.jpg" width="40%" height="50%">
+<img src="src/3.jpg" width="40%" height="60%">
 <marquee  scrollamount="3" direction="up" width=50%; height=30%; bgcolor=""><center><img src="src/rocket.gif" width="40%" height="50%"></center><ul><li><a href="https://jrre.vmhost.psu.edu/wp-content/uploads/2014/02/7-2_3.pdf">Differences Between Rural and Urban Schools, Student Characteristics in ohio.</li></a>
 
 <a href="https://www.mitpressjournals.org/doi/pdf/10.1162/ADEV_a_00042"><li>Education Inequality between Rural and Urban Areas of the People’s Republic of China.</li></a>
